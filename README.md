@@ -32,3 +32,40 @@
 
 А также на облако слов:
 ![Облако слов](images/wordcloud-1.png)
+
+Для анализа самых частотных фраз  предлагаю посмотреть на следующие две вещи:
+Во-первых, список самых частотных 5-грамм:
+
+| фраза                         | вхождений |
+|:------------------------------|----------:|
+| is there a way to             |       638 |
+| i don't know how              |       320 |
+| don't know how to             |       304 |
+| is there any way to           |       276 |
+| but i don't know              |       206 |
+| what am i doing wrong         |       191 |
+| i get the following error     |       191 |
+| here is my code :             |       174 |
+| i don't want to               |       169 |
+| i am trying to create         |       163 |
+| but when i try to             |       149 |
+| i want to create a            |       145 |
+| want to be able to            |       143 |
+| i am trying to use            |       140 |
+| any help would be appreciated |       138 |
+
+А также список collocations (т.е. таких сочетаний слов, что они встречаются чаще всего именно в таком сочетании):
+
+| фраза          |
+|:---------------|
+| look like      |
+| something like |
+| would like     |
+| don't know     |
+| visual studio  |
+| make sure      |
+| please help    |
+| error message  |
+| don't work     |
+
+Код, обрабатывающий и поготавливающий приведённые выше данные можно посмотреть в [файле](https://github.com/DenisKorotchenko/StackOverflow-Frequencies/blob/master/analysis.ipynb)
