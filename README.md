@@ -68,4 +68,4 @@
 | error message  |
 | don't work     |
 
-Код, обрабатывающий и поготавливающий приведённые выше данные можно посмотреть в [файле](https://github.com/DenisKorotchenko/StackOverflow-Frequencies/blob/master/analysis.ipynb)
+Код, обрабатывающий и поготавливающий приведённые выше данные можно посмотреть в [файле](https://github.com/DenisKorotchenko/StackOverflow-Frequencies/blob/master/analysis.ipynb).
